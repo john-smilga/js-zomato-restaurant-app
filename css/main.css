@@ -1,0 +1,37 @@
+:root {
+  --mainWhite: #f5f5f5;
+  --mainDark: #333333;
+  --mainRed: #c92332;
+}
+body {
+  background: var(--mainWhite);
+  color: var(--mainDark);
+}
+.redBtn {
+  border-color: var(--mainRed);
+  color: var(--mainRed);
+  background: transparent;
+}
+.redText {
+  color: var(--mainRed);
+}
+.redBtn:hover {
+  background: var(--mainRed);
+  color: var(--mainDark);
+}
+.form-control {
+  border-color: var(--mainRed);
+}
+.feedback {
+  display: none;
+}
+.loader {
+  margin: 0 auto;
+  display: none;
+}
+.card p {
+  font-size: 0.7rem;
+}
+.showItem {
+  display: block;
+}

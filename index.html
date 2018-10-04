@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <!-- bootstrap css -->
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <!-- main css -->
+ <link rel="stylesheet" href="css/main.css">
+ <!-- google fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+ <!-- font awesome -->
+ <link rel="stylesheet" href="css/all.css">
+ <title>Grocery Item</title>
+ <style>
+ </style>
+</head>
+
+<body>
+
+ <div class="container">
+  <div class="row">
+   <div class="col">
+    <img src="img/zomato-logo.png" class="d-block mx-auto" alt="">
+    <div class="feedback alert alert-danger text-center text-capitalize">please enter city</div>
+    <form id="searchForm" class="my-4">
+     <!-- form group -->
+     <div class="form-group my-3">
+      <select class="custom-select text-capitalize" id="searchCategory">
+
+
+      </select>
+     </div>
+     <!-- end of form group -->
+
+     <!-- input group -->
+     <div class="input-group">
+      <input type="text" class="form-control text-capitalize" id="searchCity" placeholder="enter city....">
+      <div class="input-group-append">
+       <button type="submit" class="btn redBtn text-capitalize">search</button>
+      </div>
+     </div>
+     <!-- input group -->
+
+
+    </form>
+
+    <img src="img/loader.gif" class="loader" alt="">
+   </div>
+  </div>
+ </div>
+ <!-- restaurant section -->
+
+ <section class="py-5">
+  <div class="container">
+   <div class="row" id="restaurant-list">
+    <!-- item -->
+    <div class="col-11 mx-auto my-3">
+     <div class="card">
+      <div class="card">
+       <div class="row p-3">
+        <div class="col-5">
+         <img src="img/food.jpeg" class="img-fluid img-thumbnail" alt="">
+        </div>
+        <div class="col-5 text-capitalize">
+         <h6 class="text-uppercase pt-2 redText">name</h6>
+         <p>address</p>
+        </div>
+        <div class="col-1">
+         <div class="badge badge-success">
+          4.9
+         </div>
+        </div>
+       </div>
+       <hr>
+       <div class="row py-3 ml-1">
+        <div class="col-5 text-uppercase ">
+         <p>cousines :</p>
+         <p>cost for two :</p>
+        </div>
+        <div class="col-7 text-uppercase">
+         <p>cousines</p>
+         <p>cost</p>
+        </div>
+       </div>
+       <hr>
+       <div class="row text-center no-gutters pb-3">
+        <div class="col-6">
+         <a href="#" target="_blank" class="btn redBtn  text-uppercase"><i class="fas fa-book"></i> menu</a>
+        </div>
+        <div class="col-6">
+         <a href="#" target="_blank" class="btn redBtn  text-uppercase"><i class="fas fa-book"></i> website</a>
+        </div>
+       </div>
+      </div>
+     </div>
+
+     <!-- item -->
+
+    </div>
+   </div>
+ </section>
+
+
+
+ <!-- jquery -->
+ <script src="js/jquery-3.3.1.min.js"></script>
+ <!-- bootstrap js -->
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <!-- script js -->
+ <script src="js/app.js"></script>
+</body>
+
+</html>
